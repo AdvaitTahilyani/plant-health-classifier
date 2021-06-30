@@ -1,0 +1,22 @@
+The output is a json containing the following parameters:
+
+Coordinates - The coordinates of each box bound (list)
+
+Object_Identification_Probability - The probability that the object identified is a lettuce. (decimal)
+
+Status - Output concerning the health of lettuce. If the lettuce is classified as diseased, but with a low probability,
+this value defaults to mixed. (string)
+
+Classification_Probability - The probability with which the lettuce is the value of status. In case of mixed, the
+diseased probability is shown. (decimal)
+
+Row - The predicted row of the lettuce (integer)
+
+Column - The predicted column of the lettuce (integer)
+
+Green_Intensity - The green levels of the lettuce, higher numbers represent darker leaves. Dark green lettuce leaves
+indicate higher fiber, flavor and nutritional value. Darker green lettuce leaves are likely to be significantly higher
+in beta carotene, folate, vitamins C and K, calcium, magnesium, potassium, and iron. Lighter leaves have greater water
+content. (decimal)
+
+Size - Relative size of the lettuce compared to the average size of lettuces in the image. (string)
